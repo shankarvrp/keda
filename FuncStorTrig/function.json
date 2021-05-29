@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "msgQueue",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "kedaqueue",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
